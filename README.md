@@ -9,9 +9,9 @@ Summary: A light and dark theme with a mix of green and light/dark grey colors.
 
 URL: http://manjaro.org
 
-Copyright 2014 Horst3180 Licensed as GPLv3.
+Licensed as GPLv3.
 
-The Vertex theme includes:
+The Menda Dark theme includes:
 
     GTK2 theme
     GTK3 theme
