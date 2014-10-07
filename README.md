@@ -18,7 +18,6 @@ The Menda Dark theme includes:
     Gnome shell
     Cinnamon Theme
     Metacity theme
-    Unity theme
     Xfwm4 theme
     Openbox Theme
 
