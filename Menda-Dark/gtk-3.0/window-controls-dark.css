@@ -48,11 +48,7 @@ GtkCalendar .left .header .button.titlebutton {
   background-repeat: no-repeat;
 }
 
-/* Generic titlebutton */
-.titlebar .right .titlebutton,
-.titlebar .left .titlebutton {
-  background-image: url('window-controls/titlebutton.svg');
-}
+
 
 .titlebar .right .titlebutton:backdrop,
 .titlebar .left .titlebutton:backdrop {
@@ -62,11 +58,35 @@ GtkCalendar .left .header .button.titlebutton {
 /* :hover and :active states */
 
 /* Minimize */
+.titlebar .right .titlebutton:nth-last-child(3),
+.titlebar .right:dir(rtl) .titlebutton:nth-child(3),
+.titlebar .left .titlebutton:nth-child(3),
+.titlebar .left:dir(rtl) .titlebutton:nth-last-child(3) {
+  background-image: url('window-controls/min.svg');
+}
+
+/* Minimize */
 .titlebar .right .titlebutton:nth-last-child(3):hover,
 .titlebar .right:dir(rtl) .titlebutton:nth-child(3):hover,
 .titlebar .left .titlebutton:nth-child(3):hover,
 .titlebar .left:dir(rtl) .titlebutton:nth-last-child(3):hover {
   background-image: url('window-controls/min_prelight.svg');
+}
+
+/* Minimize */
+.titlebar .right .titlebutton:nth-last-child(3):active,
+.titlebar .right:dir(rtl) .titlebutton:nth-child(3):active,
+.titlebar .left .titlebutton:nth-child(3):active,
+.titlebar .left:dir(rtl) .titlebutton:nth-last-child(3):active {
+  background-image: url('window-controls/min_pressed.svg');
+}
+
+/* Maximize */
+.titlebar .right .titlebutton:nth-last-child(2),
+.titlebar .right:dir(rtl) .titlebutton:nth-child(2),
+.titlebar .left .titlebutton:nth-child(2),
+.titlebar .left:dir(rtl) .titlebutton:nth-last-child(2) {
+  background-image: url('window-controls/max.svg');
 }
 
 /* Maximize */
@@ -77,6 +97,22 @@ GtkCalendar .left .header .button.titlebutton {
   background-image: url('window-controls/max_prelight.svg');
 }
 
+/* Maximize */
+.titlebar .right .titlebutton:nth-last-child(2):active,
+.titlebar .right:dir(rtl) .titlebutton:nth-child(2):active,
+.titlebar .left .titlebutton:nth-child(2):active,
+.titlebar .left:dir(rtl) .titlebutton:nth-last-child(2):active {
+  background-image: url('window-controls/max_pressed.svg');
+}
+
+/* Close */
+.titlebar .right .titlebutton:last-child,
+.titlebar .right:dir(rtl) .titlebutton:first-child,
+.titlebar .left .titlebutton:first-child,
+.titlebar .left:dir(rtl) .titlebutton:last-child {
+  background-image: url('window-controls/close.svg');
+}
+
 /* Close */
 .titlebar .right .titlebutton:last-child:hover,
 .titlebar .right:dir(rtl) .titlebutton:first-child:hover,
@@ -85,9 +121,12 @@ GtkCalendar .left .header .button.titlebutton {
   background-image: url('window-controls/close_prelight.svg');
 }
 
-.titlebar .right .titlebutton:active:hover,
-.titlebar .left .titlebutton:active:hover {
-  background-image: url('window-controls/titlebutton_pressed.svg');
+/* Close */
+.titlebar .right .titlebutton:last-child:active,
+.titlebar .right:dir(rtl) .titlebutton:first-child:active,
+.titlebar .left .titlebutton:first-child:active,
+.titlebar .left:dir(rtl) .titlebutton:last-child:active {
+  background-image: url('window-controls/close_pressed.svg');
 }
 
 /*GtkMenuButton*/

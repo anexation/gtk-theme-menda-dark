@@ -27,8 +27,8 @@
 @define-color button_hover_gradient_color_a @theme_base_color;
 @define-color button_hover_gradient_color_b shade (@button_gradient_color_a, 0.94);
 
-@define-color button_active_gradient_color_a #6a6a6c;
-@define-color button_active_gradient_color_b #949596;
+@define-color button_active_gradient_color_a #A5CA85;
+@define-color button_active_gradient_color_b #A5CA85;
 
 @define-color button_active_text @theme_selected_fg_color;
 @define-color button_active_text_shadow alpha(black, 0.4);
