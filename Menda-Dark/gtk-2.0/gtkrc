@@ -1041,7 +1041,7 @@ style "entry" {
   xthickness = 4
   ythickness = 4
 
-  base[NORMAL] = "#2B2B2C"
+  base[NORMAL] = "#404040"
   base[INSENSITIVE] = @insensitive_bg_color
 
   engine "pixmap" {
