@@ -68,8 +68,8 @@
 
 /*@define-color trough_bg_color_a #565759;
 @define-color trough_bg_color_b shade(@trough_bg_color_a, 1.1);*/
-@define-color trough_bg_color_a #4f4f4f;
-@define-color trough_bg_color_b #4f4f4f;
+@define-color trough_bg_color_a #353535;
+@define-color trough_bg_color_b #353535;
 
 @define-color sidebar_bg shade(@theme_bg_color, 0.9);
 
