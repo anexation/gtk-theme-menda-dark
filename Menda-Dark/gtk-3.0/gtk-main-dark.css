@@ -38,7 +38,7 @@
 @define-color button_active_gradient_color_b #689742;
 
 @define-color button_active_text @theme_fg_color;
-@define-color button_active_text_shadow alpha(black, 0.6);
+@define-color button_active_text_shadow alpha(black, 0.4);
 
 @define-color suggested_action_button_a #8CBC65;
 @define-color suggested_action_button_b #8CBC65;
@@ -148,3 +148,4 @@
 @import url("window-controls-dark.css");
 @import url("tabs.css");
 @import url("tabs-dark-overrides.css");
+@import url("mate-applications.css");
